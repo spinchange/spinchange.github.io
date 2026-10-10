@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>spinchange</title>
+<meta name="description" content="Public projects by spinchange: translations and reading editions of old books, reading notes, and small tools, many built with AI agents.">
+<style>
+:root{--bg:#ffffff;--surface:#f6f6f4;--ink:#1b1b1b;--ink-2:#4a4a4a;--ink-3:#7a7a7a;--line:#e2e2de;--accent:#1f6f8b;--max:44rem}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#141518;--surface:#1d1f24;--ink:#ececea;--ink-2:#b9b9b4;--ink-3:#8a8a86;--line:#2c2f36;--accent:#6fb8d6}}
+:root[data-theme="dark"]{--bg:#141518;--surface:#1d1f24;--ink:#ececea;--ink-2:#b9b9b4;--ink-3:#8a8a86;--line:#2c2f36;--accent:#6fb8d6}
+*{box-sizing:border-box}
+html{font-size:17px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:ui-serif,Georgia,"Times New Roman",serif;line-height:1.55}
+main{max-width:var(--max);margin:0 auto;padding:3rem 16px 4rem}
+h1{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:2.4rem;letter-spacing:-.01em;margin:0 0 .4rem}
+h2{font-family:ui-sans-serif,system-ui,sans-serif;font-size:1.05rem;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-3);margin:2.6rem 0 .6rem;padding-top:1.2rem;border-top:1px solid var(--line)}
+.lede{font-size:1.12rem;color:var(--ink-2);margin:0 0 .5rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+ul{list-style:none;padding:0;margin:0}
+li{padding:.55rem 0;border-bottom:1px solid var(--line)}
+li:last-child{border-bottom:0}
+li a.t{font-family:ui-sans-serif,system-ui,sans-serif;font-weight:600;color:var(--ink)}
+li a.t:hover{color:var(--accent)}
+li .d{display:block;color:var(--ink-2);font-size:.95rem}
+li .u{font-family:ui-sans-serif,system-ui,sans-serif;font-size:.78rem;color:var(--ink-3);margin-left:.4rem}
+.more{columns:2;column-gap:2rem;font-family:ui-sans-serif,system-ui,sans-serif;font-size:.92rem}
+.more li{border:0;padding:.2rem 0;break-inside:avoid}
+@media (max-width:560px){.more{columns:1}}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);font-family:ui-sans-serif,system-ui,sans-serif;font-size:.85rem;color:var(--ink-3)}
+</style>
+</head>
+<body>
+<main>
+<h1>spinchange</h1>
+<p class="lede">Old books made readable again, reading notes, and a few small tools. Most of it built together with AI agents and published from <a href="https://github.com/spinchange">GitHub</a>.</p>
+
+<h2>Translations</h2>
+<ul>
+  <li><a class="t" href="https://theclaudyssey.com/">The Odyssey</a><span class="u">theclaudyssey.com</span><span class="d">A complete line-for-line English translation from the Greek, with annotations, a name index with pronunciations, and EPUB, Kindle and PDF editions.</span></li>
+  <li><a class="t" href="https://wrath-sing-goddess.com/">The Iliad</a><span class="u">wrath-sing-goddess.com</span><span class="d">A complete line-for-line English translation from the Greek, with annotations and a translator's commentary on every book.</span></li>
+  <li><a class="t" href="/odyssey-english-hexameter/">The Odyssey in English hexameter</a><span class="d">A second Odyssey, this one in dactylic hexameter, line for line.</span></li>
+  <li><a class="t" href="/etymologiae/">Etymologiae</a><span class="d">Isidore of Seville's Etymologies reimagined: all twenty books in verse, fully cross-linked.</span></li>
+  <li><a class="t" href="/divina-proportione/">De Divina Proportione</a><span class="d">English translation of Pacioli's 1498 treatise with Leonardo da Vinci's sixty plates.</span></li>
+</ul>
+
+<h2>Reading editions</h2>
+<ul>
+  <li><a class="t" href="/Great-Books-of-the-World/">Great Books of the World</a><span class="d">A world-literature library in public-domain English translations, with a catalog site and hand-built ePubs.</span></li>
+  <li><a class="t" href="/decline-and-fall/">The Decline and Fall of the Roman Empire</a><span class="d">Gibbon, in an illustrated HTML edition.</span></li>
+  <li><a class="t" href="/memoirs-of-extraordinary-popular-delusions-and-the-madness-of-crowds/">Extraordinary Popular Delusions and the Madness of Crowds</a><span class="d">Charles Mackay, 1852, as a multi-page HTML edition.</span></li>
+  <li><a class="t" href="/federalist-papers/">The Federalist Papers</a><span class="d">All 85 essays as a linked vault.</span></li>
+  <li><a class="t" href="/as-we-may-think/">As We May Think</a><span class="d">Vannevar Bush's 1945 essay in a distraction-free reading edition.</span></li>
+  <li><a class="t" href="/computing-machinery-and-intelligence/">Computing Machinery and Intelligence</a><span class="d">Alan Turing's 1950 paper in a distraction-free reading edition.</span></li>
+  <li><a class="t" href="/the-mathematical-theory-of-communication/">A Mathematical Theory of Communication</a><span class="d">Claude Shannon's 1948 paper in a distraction-free reading edition.</span></li>
+</ul>
+
+<h2>Notes and reading</h2>
+<ul>
+  <li><a class="t" href="/reading-blog/">Reading log</a><span class="d">Tables of contents, bibliographies, and notes on what I read.</span></li>
+  <li><a class="t" href="/reading-claudes-constitution/">Reading Claude's constitution</a><span class="d">A curated reader's companion to the document.</span></li>
+  <li><a class="t" href="/yanp/">YANP</a><span class="d">Yet Another Notes Project: a YAML frontmatter specification for note vaults.</span></li>
+  <li><a class="t" href="/umwelt/">Umwelt</a><span class="d">Notes on animal communication and signals crossing between species' perceptual worlds.</span></li>
+  <li><a class="t" href="/aphelion/">Aphelion</a><span class="d">A space-science knowledge vault.</span></li>
+  <li><a class="t" href="/ai-debates/">AI debates</a><span class="d">Claude and Gemini in structured debate, with post-debate analysis.</span></li>
+  <li><a class="t" href="/triple-agent-debate/">The Triple Agent Chronicles</a><span class="d">Gemini, Claude and Codex in conversation.</span></li>
+</ul>
+
+<h2>Tools</h2>
+<ul>
+  <li><a class="t" href="https://whyibonds.com/">Why I bonds</a><span class="u">whyibonds.com</span><span class="d">What a Series I savings bond pays now, what it will probably pay next, and whether to buy or wait. Rebuilt daily from Treasury and BLS data.</span></li>
+  <li><a class="t" href="/notepad/">Notepad</a><span class="d">A single-file browser notepad with real file-system access.</span></li>
+  <li><a class="t" href="/soul-sigil/">Soul sigil</a><span class="d">A unique visual and bytebeat audio signature generated from your machine's fingerprint.</span></li>
+  <li><a class="t" href="/umi/">UMI</a><span class="d">Universal Machine Interface: an open schema for how AI agents query and understand machines.</span></li>
+  <li><a class="t" href="/janet-learn/">Learn Janet</a><span class="d">An interactive site for the Janet Lisp.</span></li>
+</ul>
+
+<h2>Also here</h2>
+<ul class="more">
+  <li><a href="/epistolary-library/">epistolary-library</a></li>
+  <li><a href="/forest-of-the-mind/">forest-of-the-mind</a></li>
+  <li><a href="/gdrive-cms/">gdrive-cms</a></li>
+  <li><a href="/lawgivers/">lawgivers</a></li>
+  <li><a href="/local-frontier/">local-frontier</a></li>
+  <li><a href="/PowerClaw/">PowerClaw</a></li>
+  <li><a href="/project-about-projects/">project-about-projects</a></li>
+  <li><a href="/spinchange-matrix-view/">spinchange-matrix-view</a></li>
+  <li><a href="/vulture-nest/">vulture-nest</a></li>
+  <li><a href="/yanp-html-app/">yanp-html-app</a></li>
+  <li><a href="/yanp-notes/">yanp-notes</a></li>
+</ul>
+
+<footer>Every project page above lives under this domain, so older spinchange.github.io links still resolve. Source for this page: <a href="https://github.com/spinchange/spinchange.github.io">spinchange.github.io</a>.</footer>
+</main>
+</body>
+</html>
